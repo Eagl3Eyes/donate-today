@@ -249,6 +249,7 @@ input {
 }
 
 input[type="text"] {
+    padding-left: 15px;
     background: #D9D9D9;
     font-family: 'Roboto';
     font-style: normal;
@@ -260,10 +261,6 @@ input[type="text"] {
     border: none;
     border-radius: 5px 0px 0px 5px;
     color: #AA9F9F;
-}
-
-input::placeholder {
-    padding-left: 15px;
 }
 
 input[type="submit"] {
